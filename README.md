@@ -36,6 +36,13 @@ git submodule update --init --recursive
 * Vulkan
 * sed, gnuutils (for Windows users)
 
+**Windows:** VTK and FFmpeg are used from the system on Windows (xmake does not build them). Install them e.g. with [vcpkg](https://vcpkg.io/), then point xmake at vcpkg:
+```bash
+vcpkg install vtk:x64-windows ffmpeg:x64-windows
+xmake f --vcpkg=C:\path\to\vcpkg
+```
+Or set the environment variable `VCPKG_ROOT` to your vcpkg directory before running `xmake build`.
+
 ### 4. Build
 
 At proj/sim_render
