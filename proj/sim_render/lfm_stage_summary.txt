@@ -1,0 +1,14 @@
+benchmark_target=sim_render
+timestamp=2026-02-17 16:49:41
+elapsed_seconds=31.7351077
+run_exit_code=124
+timed_out=True
+
+stage,count,avg_ms,min_ms,max_ms
+Advection,1870,1.256954,0.871424,2.116608
+BFECC,373,2.188885,1.973248,3.082240
+Impulse reconstruction,373,0.688157,0.666624,0.734208
+Marching Backward flowmap,373,15.360579,14.041088,19.181568
+Marching Forward flowmap,373,15.612625,13.092864,18.365408
+Projection 1,1870,3.968687,3.080192,5.797888
+Projection 2,373,4.270870,3.466240,5.457760
