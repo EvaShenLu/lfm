@@ -2,3 +2,7 @@
 *.vscode/
 build/
 logs/
+# Benchmark/profiler outputs
+proj/sim_render/lfm_profile.*
+proj/sim_render/lfm_benchmark_log.txt
+proj/sim_render/lfm_stage_summary.txt
